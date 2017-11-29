@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HomeWork7.MainForm">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="141" y="12" width="730" height="368"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ee910" class="javax.swing.JLabel" binding="labelCat1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="170" height="128"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="HomeWork7/img/cat5.png"/>
+          <text value=""/>
+          <toolTipText value=""/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="4c3d9" class="javax.swing.JButton" binding="btnStart">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Начать"/>
+        </properties>
+      </component>
+      <component id="65069" class="javax.swing.JButton" binding="btnAddFood">
+        <constraints>
+          <grid row="1" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Добавить еды"/>
+        </properties>
+      </component>
+      <component id="665ef" class="javax.swing.JLabel" binding="labelCat2">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="HomeWork7/img/cat6.png"/>
+          <text value=""/>
+          <toolTipText value=""/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="ad1e7" class="javax.swing.JLabel" binding="plateLabel1">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="151" height="128"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="HomeWork7/img/plate.png"/>
+          <text value=""/>
+          <toolTipText value="Миска"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
