@@ -31,7 +31,7 @@ public class MainClass {
         Arrays.sort(strArray);
         for (String str : strArray) {
             if (linkedHashMap.containsKey(str)) {
-                linkedHashMap.remove(str);
+                //linkedHashMap.remove(str);
                 linkedHashMap.put(str, ++i);
             } else {
                 i = 1;
