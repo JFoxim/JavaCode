@@ -68,7 +68,7 @@ class MyNewArray {
     }
 
     public void setArr(int[] arrayNew){
-        arr = Arrays.copyOf(arrayNew, arrayNew.length);;
+        arr = Arrays.copyOf(arrayNew, arrayNew.length);
     }
 
     public int getChangeCount()
