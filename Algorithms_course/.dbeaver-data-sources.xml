@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="sqlite_jdbc-16344b23125-6db389e992357323" provider="generic" driver="sqlite_jdbc" name="SQLite - sqlite-jdbc-3.21.0.jar" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="/home/rinat/eclipse/eclipse/jdbc/sqlite-jdbc-3.21.0.jar" url="jdbc:sqlite:/home/rinat/eclipse/eclipse/jdbc/sqlite-jdbc-3.21.0.jar" type="dev"/>
+	</data-source>
+	<data-source id="sqlite_jdbc-16344b4d5bb-6b2c4d4efd5772b9" provider="generic" driver="sqlite_jdbc" name="SQLite - db_storage.db" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="/home/rinat/JavaProjects/MyCloudStorage/server/db_storage.db" url="jdbc:sqlite:/home/rinat/JavaProjects/MyCloudStorage/server/db_storage.db" type="dev"/>
+	</data-source>
+	<filters/>
+</data-sources>
