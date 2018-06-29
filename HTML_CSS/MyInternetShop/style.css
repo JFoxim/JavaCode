@@ -1,0 +1,161 @@
+body {
+  background-color: #f8f8f8;
+}
+
+.header {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #eaeaea;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.short-descript {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.descript {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.characteristic {
+  margin-left: 0;
+  list-style: none;
+  counter-reset: li;
+  font-family: calibri;
+  font-size: 15px;
+  list-style-image: url("images/check.png");
+}
+
+.characteristic li {
+  padding: 10px 0;
+  position: relative;
+  left: 1.5em;
+  margin-bottom: 0.75em;
+  padding-left: 1em;
+  background: #E3DEDC;
+}
+
+.textBox input {
+  width: 150px;
+  height: 18px;
+  font-family: monospace;
+  font-size: 15px;
+  color: #930;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 3px;
+  color: #930;
+}
+
+.logoimage {
+  text-align: center;
+}
+
+.image-border img {
+  border: 2px solid #191b42;
+  height: 230px;
+}
+
+.catalogItem img {
+  height: 75px;
+  border: 1px solid #191b42;
+}
+
+.catalogItem li {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.menu-main {
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: white;
+}
+
+.menu-main li {
+  display: inline-block;
+}
+
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu-main li:last-child:after {
+  content: none;
+}
+
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+
+.menu-main a, .menu-main a:visited {
+  color: #9d999d;
+}
+
+.menu-main a.current, .menu-main a:hover {
+  color: #5D6AE3;
+}
+
+.menu-main a:before, .menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #5D6AE3;
+  transition: .8s;
+}
+
+.menu-main a:hover:before, .menu-main .current:before {
+  left: 0;
+}
+
+.menu-main a:hover:after, .menu-main .current:after {
+  right: 0;
+}
+
+@media (max-width: 550px) {
+  .menu-main {
+    padding-top: 0;
+  }
+  .menu-main li {
+    display: block;
+  }
+  .menu-main li:after {
+    content: none;
+  }
+  .menu-main a {
+    padding: 25px 0 20px;
+    margin: 0 30px;
+  }
+}

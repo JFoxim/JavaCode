@@ -2,28 +2,30 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Каталог</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Каталог</title>
 </head>
 
 <body>
-<ul>
-<li><a href="index.html">Главная</a></li>
-<li><a href="catalog.html">Каталог</a></li>
-<li><a href="contacts.html">Контакты</a></li>
-</ul>
-<hr>
-<h2>Каталог</h2>
-<ol>
-<li><img src="images\49601127.jpg" border="1" vspace="5" hspace="5" height="75" width="75" alt="Философия Java. 4-е полное изд."> <br><a href="catalog\JavaBook345453.html">Философия Java. 4-е полное изд. Эккель&nbsp;Б.</a></li>
-<li><img src="images\49807794.jpg" border="1" vspace="5" hspace="5" height="75" width="75" alt="Linux. Руководство программиста"> <br><a href="catalog\linuxBook1563.html">Linux. Руководство программиста. Фуско&nbsp;Д.</a></li>
-</ol>
+  <ul class="menu-main">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="catalog.html" class="current">Каталог</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+  </ul>
+  <hr>
+  <h2>Каталог</h2>
+  <ol class="catalogItem">
+    <li><a href="catalog\JavaBook345453.html" target="_blank"><img src="images\49601127.jpg"  alt="Философия Java. 4-е полное изд."> <br><a href="catalog\JavaBook345453.html">Философия Java. 4-е полное изд. Эккель&nbsp;Б.</a></li>
+    <li><a href="catalog\linuxBook1563.html" target="_blank"><img src="images\49807794.jpg"  alt="Linux. Руководство программиста"> <br><a href="catalog\linuxBook1563.html">Linux. Руководство программиста. Фуско&nbsp;Д.</a></li>
+  </ol>
+  <footer>
+    <hr>
+    <p>&copy;&nbsp;Все права защищены</p>
+  </footer>
+
 </body>
-<footer>
-<hr>
-<p>&copy;&nbsp;Все права защищены</p>
-</footer>
 
 </html>
