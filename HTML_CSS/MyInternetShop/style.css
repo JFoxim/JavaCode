@@ -97,14 +97,26 @@ textarea {
     outline-style: none;
 }
 
-.catalogItem img {
+.catalog img {
     height: 75px;
     border: 1px solid #191b42;
 }
 
-.catalogItem li {
+/* .catalogItem li {
     padding-left: 5px;
     padding-top: 5px;
+} */
+
+.catalog{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.image-fulldiscript p::first-letter, .descript::first-letter {
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
 }
 
 table {
@@ -119,10 +131,9 @@ td {
     padding: 4px 4px 4px 4px;
 }
 
-table tr nth-child(1) td {
+.table-header{
     color: black;
-    font-size: 18px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .menu-main {
