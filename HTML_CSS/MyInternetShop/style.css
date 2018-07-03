@@ -13,6 +13,7 @@ body {
 }
 
 .basement {
+    margin-top: 30px;
     border-top: 2px solid #5D6AE3;
 }
 
@@ -98,7 +99,7 @@ textarea {
 }
 
 .catalog img {
-    height: 75px;
+    height: 180px;
     border: 1px solid #191b42;
 }
 
@@ -107,7 +108,7 @@ textarea {
     padding-top: 5px;
 } */
 
-.catalog{
+.catalog {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -124,6 +125,10 @@ table {
     border-collapse: collapse;
 }
 
+.firstRow {
+    line-height:120px;
+}
+
 td {
     border: 1px solid #191b42;
     text-align: center;
@@ -131,7 +136,7 @@ td {
     padding: 4px 4px 4px 4px;
 }
 
-.table-header{
+.table-header {
     color: black;
     font-weight: bold;
 }
