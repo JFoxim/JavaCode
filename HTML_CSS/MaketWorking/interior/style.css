@@ -3,14 +3,340 @@
     padding: 0;
 }
 
-.container {
-    width: 1366px;
-    height: 800px;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header img {
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(images/slider-img.jpg);
+    margin-bottom: 120px;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 63px;
+}
+
+.menu-main {
+    display: flex;
+    list-style-image: none;
+    list-style: none;
+    margin-top: 57px;
+}
+
+.menu-main a {
+    padding: 10px 13px;
+    display: block;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu-main .active-menu {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-main a:hover {
+    color: #212121;
+    border-bottom: 1px solid #212121;
+}
+
+.menu-main img {
+    padding-top: 8px;
+    padding-left: 2px;
+    width: 23px;
+    height: 23px;
+}
+
+.menu-main .active-menu:hover {
+    border-bottom: 3px solid #212121;
+}
+
+.slider .text {
+    margin-top: 283px;
+}
+
+.slider .text h3 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 22px;
+}
+
+.slider .text h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 47px;
+    text-align: left;
+    margin-bottom: 34px;
+    letter-spacing: -2px;
+}
+
+.slider .text p {
+    color: #6c6c6c;
+    width: 458px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.text a {
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 22.5px;
+    letter-spacing: 3.6px;
+}
+
+.navi {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    position: relative;
+}
+
+.navi img {
+    width: 120px;
+    height: 40px;
+    margin: 0;
+}
+
+.navi .active {
+    border-radius: 50%;
     background-color: #212121;
-    width: 185px;
-    height: 22px;
-    font-family: 'Montserrat', sans-serif;
+    width: 40px;
+    height: 40px;
+    margin-top: -42px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.featured {
+    padding-left: 107px;
+    padding-right: 118px;
+    background-color: #ffffff;
+}
+
+.featured .menu {
+    display: flex;
+}
+
+.featured .images-blocks a {
+    height: 270px;
+}
+
+.featured .images-blocks img {
+    height: 270px;
+    width: 270px;
+    margin: 0;
+    padding: 0;
+}
+
+.featured a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    /* padding-bottom: 19px; */
+    padding-left: 9px;
+}
+
+.featured .menu .current {
+    color: #212121;
+    padding-right: 22px;
+    border-bottom: 3px solid #212121;
+}
+
+.featured .menu .explore {
+    color: #212121;
+    font-size: 18px;
+    line-height: 24px;
+    border-bottom: 0;
+    padding-right: 118px;
+    text-transform: uppercase;
+    padding-left: 635px;
+    padding-top: 16px;
+}
+
+.featured .images-blocks {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.forward {
+    border-width: 1px;
+    border-color: #9c9c9c;
+    border-style: solid;
+    background-color: #ffffff;
+    opacity: 0.9;
+    width: 268px;
+    height: 268px;
+}
+
+.featured .forward .round-button {
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 48px;
+    height: 48px;
+    margin-top: 62px;
+    margin-left: 111px;
+}
+
+.featured .forward .arrow {
+    color: #212121;
+    width: 12px;
+    height: 20px;
+    padding-left: 14px;
+    padding-top: 2px;
+}
+
+.featured .forward h3 {
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    line-height: 30px;
+    transform: scaleX(1.0041);
+    margin-top: 43px;
+    margin-left: -66px;
+}
+
+.featured .forward p {
+    width: 216px;
+    height: 33px;
+    color: #6c6c6c;
+    font-size: 13.94px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin-top: 23px;
+    margin-left: -99px;
+}
+
+.exclusive {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1366px;
+    height: 683px;
+    margin-top: 120px;
+    margin-left: 0;
+}
+
+.exclusive-1 {
+    width: 683px;
+    background-image: url(images/promo-img1.jpg);
+}
+
+.text .ex {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 18px;
+}
+
+.text .fish {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.text .simple-text {
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 374px;
+    transform: scaleY(1.0022);
+    margin-bottom: 34px;
+}
+
+.exclusive .text {
+    padding-top: 228px;
+    padding-left: 51px;
+}
+
+.exclusive-2 {
+    width: 683px;
+    background-image: url(images/promo-img.jpg);
+}
+
+.trending {
+    max-width: 1366px;
+    margin-top: 119px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.trending .text-tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending .text-tr p {
+    color: #212121;
+    width: 531px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.trending .text-tr a {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-bottom: 0;
+    padding-right: 118px;
+    padding-left: 635px;
+    padding-top: 16px;
+}
+
+.trending .images-tr {
+    max-width: 1170px;
+    margin-top: 64px;
+}
+
+.images-tr a {
+    width: 370px;
+    height: 370px;
+}
+
+.images-tr img {
+    width: 370px;
+    height: 370px;
 }
